@@ -87,12 +87,12 @@ article img {
 
 .news1 h2::before {
     content: 'News';
-    color: rgb(0, 41, 204);
+    color: #4481b0;
     font-size: .8em1;
     margin: 10px;
 }
 
 main {
-    background:rgb(254, 247, 210);
+    background:rgb(250, 244, 213);
 }
 
