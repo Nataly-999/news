@@ -81,13 +81,18 @@ article img {
     object-fit: cover;
 }
 
-main p:nth-child(2n) {
-    background: greenyellow;
+.article-name:nth-child(2n) {
+    background: rgb(158, 213, 241);
 }
 
 .news1 h2::before {
     content: 'News';
-    color: #c00;
-    font-size: .8em1
+    color: rgb(0, 41, 204);
+    font-size: .8em1;
+    margin: 10px;
+}
+
+main {
+    background:rgb(249, 240, 186);
 }
 
