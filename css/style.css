@@ -79,7 +79,7 @@ article h2 {
 
 article img {
     width: 100%;
-    height: 300px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -88,9 +88,10 @@ article img {
 }
 
 .news1 h2::before {
-    content: 'News';
+    content: 'New';
     color: #4481b0;
     font-size: .8em1;
+    font-style: italic;
     margin-right: 10px;
 }
 
@@ -99,3 +100,20 @@ article img {
     background:rgb(250, 244, 213);
 }
 
+.text {
+    margin-left: 10px;
+    background:rgb(250, 244, 213);
+}
+
+.fig img {
+    width: 600px;
+    height: 400px;
+    object-fit:cover;
+    place-items: center;
+}
+
+.adress {
+    background:rgb(250, 244, 213);
+    text-align: center;
+    margin: 10px;
+}
