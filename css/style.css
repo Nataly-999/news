@@ -29,7 +29,7 @@ margin-bottom: 50px;
 }
 
 footer .links > a {
-    color: #f6e051;
+    color: #efd631;
     padding: 0 25px;
     font-size: 13px;
     font-weight: 600;
@@ -50,7 +50,9 @@ footer .links > a {
 
 article {
     width: 768px;
-    margin: 0 auto 32px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
     padding: 6px 15px;
     border-bottom: 1px solid rgb(149, 101, 101);
 }
@@ -82,17 +84,18 @@ article img {
 }
 
 .article-name:nth-child(2n) {
-    background: rgb(158, 213, 241);
+    background: rgb(181, 247, 244);
 }
 
 .news1 h2::before {
     content: 'News';
     color: #4481b0;
     font-size: .8em1;
-    margin: 10px;
+    margin-right: 10px;
 }
 
-main {
+.news, .news1 {
+    margin: 0;
     background:rgb(250, 244, 213);
 }
 
