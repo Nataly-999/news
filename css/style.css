@@ -4,6 +4,7 @@ body {
 }
 
 header {
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,20 +101,32 @@ article img {
     background:rgb(250, 244, 213);
 }
 
-.text {
+.text, .text_about {
     margin-left: 10px;
     background:rgb(250, 244, 213);
 }
 
-.fig img {
+.fig img, .text_about img {
     width: 600px;
     height: 400px;
     object-fit:cover;
-    place-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .adress {
     background:rgb(250, 244, 213);
     text-align: center;
-    margin: 10px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.text_about p {
+    background:rgb(250, 244, 213);
+    text-align: center;
+    margin: 0;
 }
